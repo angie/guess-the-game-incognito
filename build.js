@@ -17,7 +17,7 @@ function createDirs() {
 
 // Copy shared files
 function copySharedFiles(targetDir) {
-  ['content.js', 'LICENSE', 'README.md'].forEach(file => {
+  ['content.js', 'LICENSE', 'README.md', 'styles.css'].forEach(file => {
     fs.copyFileSync(file, path.join(targetDir, file));
   });
 }

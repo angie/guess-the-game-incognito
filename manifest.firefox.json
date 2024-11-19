@@ -5,7 +5,8 @@
   "description": "Hides the game number on Guess The Game",
   "content_scripts": [
     {
-      "matches": ["https://guessthe.game/"],
+      "matches": ["<all_urls>"],
+      "css": ["styles.css"],
       "js": ["content.js"]
     }
   ]
