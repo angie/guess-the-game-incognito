@@ -1,7 +1,7 @@
 {
   "name": "guess-the-game-incognito",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hides the game number on Guess The Game",
   "main": "index.js",
   "scripts": {
     "build": "node build.js"
