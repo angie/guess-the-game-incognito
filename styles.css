@@ -1,0 +1,4 @@
+/* Fallback CSS in case JavaScript fails */
+.current-game-number {
+  display: none !important;
+}

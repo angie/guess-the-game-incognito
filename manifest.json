@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Guess The Game Number Hider",
+  "version": "1.0",
+  "description": "Hides the game number on Guess The Game",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://guessthe.game/"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
