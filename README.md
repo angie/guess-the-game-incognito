@@ -9,6 +9,9 @@ A simple browser extension that hides the current game number display on the pag
 2. Run `node build.js`
 3. Check the `dist/` directory for browser-specific builds
 
+#### Build with zips (for distribution):
+- Linux/Mac: Run `./build-zip.sh`
+
 ## Installation
 
 ### Chrome
